@@ -3,28 +3,28 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6196765203:AAEa-_PgQ7el-4y8TbKVK2SJJz887rohZPQ")
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "20234710"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "abcf167fb12d540b887fe135e83874fa")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001927823893"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6796791078"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "ultroidxTeam")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://hanimecomplex:hanimecomplex@hanimecomplex.3kadmku.mongodb.net/?retryWrites=true&w=majority&appName=Hanimecomplex")
+DB_NAME = os.environ.get("DATABASE_NAME", "hanimecomplex")
 
 #Shortner (token system) 
 # check my discription to help by using my refer link of shareus.io
